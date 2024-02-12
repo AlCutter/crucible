@@ -1,4 +1,4 @@
-module github.com/usbarmory/crucible
+module github.com/AlCutter/crucible
 
 go 1.19
 

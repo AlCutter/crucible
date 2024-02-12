@@ -6,6 +6,7 @@
 // Use of this source code is governed by the license
 // that can be found in the LICENSE file.
 //
+//go:build linux
 // +build linux
 
 package otp
@@ -14,8 +15,8 @@ import (
 	"errors"
 	"os"
 
-	"github.com/usbarmory/crucible/fusemap"
-	"github.com/usbarmory/crucible/util"
+	"github.com/AlCutter/crucible/fusemap"
+	"github.com/AlCutter/crucible/util"
 )
 
 // BlowNVMEM a fuse through Linux NVMEM subsystem framework, returns the input

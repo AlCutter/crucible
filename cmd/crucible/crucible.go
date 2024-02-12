@@ -24,9 +24,9 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/usbarmory/crucible/fusemap"
-	"github.com/usbarmory/crucible/otp"
-	"github.com/usbarmory/crucible/util"
+	"github.com/AlCutter/crucible/fusemap"
+	"github.com/AlCutter/crucible/otp"
+	"github.com/AlCutter/crucible/util"
 )
 
 type Config struct {
@@ -44,6 +44,7 @@ type Config struct {
 }
 
 // Bundled fusemaps
+//
 //go:embed fusemaps
 var fusemaps embed.FS
 

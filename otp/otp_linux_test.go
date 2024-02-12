@@ -6,6 +6,7 @@
 // Use of this source code is governed by the license
 // that can be found in the LICENSE file.
 //
+//go:build linux
 // +build linux
 
 package otp
@@ -17,7 +18,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/usbarmory/crucible/fusemap"
+	"github.com/AlCutter/crucible/fusemap"
 )
 
 var fusemaps = os.DirFS("../fusemaps")

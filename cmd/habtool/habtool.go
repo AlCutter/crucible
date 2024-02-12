@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/usbarmory/crucible/hab"
+	"github.com/AlCutter/crucible/hab"
 )
 
 const (

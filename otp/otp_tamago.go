@@ -6,6 +6,7 @@
 // Use of this source code is governed by the license
 // that can be found in the LICENSE file.
 
+//go:build tamago && arm
 // +build tamago,arm
 
 package otp
@@ -13,7 +14,7 @@ package otp
 import (
 	"encoding/binary"
 
-	"github.com/usbarmory/crucible/util"
+	"github.com/AlCutter/crucible/util"
 	"github.com/usbarmory/tamago/soc/nxp/imx6ul"
 	"github.com/usbarmory/tamago/soc/nxp/ocotp"
 )
